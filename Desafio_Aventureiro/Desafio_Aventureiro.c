@@ -41,8 +41,8 @@ int main() {
     printf("Digite o numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos_carta1);
 
-    densidade_populacional_carta1 = populacao_carta1 / area_em_km2_carta1;
-    pib_per_capita_carta1 = pib_carta1 / populacao_carta1;
+    densidade_populacional_carta1 = (float)populacao_carta1 / area_em_km2_carta1;
+    pib_per_capita_carta1 = pib_carta1 / (float)populacao_carta1;
 
     printf(
         "\n============================================================================\n"
@@ -98,8 +98,8 @@ int main() {
     printf("Digite o numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos_carta2);
 
-    densidade_populacional_carta2 = populacao_carta2 / area_em_km2_carta2;
-    pib_per_capita_carta2 = pib_carta2 / populacao_carta2;
+    densidade_populacional_carta2 = (float)populacao_carta2 / area_em_km2_carta2;
+    pib_per_capita_carta2 = pib_carta2 / (float)populacao_carta2;
 
     printf(
         "\n============================================================================\n"
